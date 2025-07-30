@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root{
+    --red: hsl(0, 93%, 64%);
+    --BG-black: hsl(240, 14%, 11%);
+    --White: hsl(0, 0%, 100%);
+    --text-black: hsl(0, 0%, 0%);
+
+    /* hover */
+    --hover-red: hsl(0, 100%, 79%);
+    --bg-black-hover: hsl(240, 12%, 30%);
+}
