@@ -1,0 +1,94 @@
+header .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+header .navbar .logo-container {
+  background: #FFFFFF;
+  padding: 30px 140px;
+  width: 60%;
+}
+header .navbar .list-container {
+  background: #F94F4F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  width: 70%;
+}
+header .navbar .menu-red {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+header .navbar .menu-red li {
+  padding: 0 10px;
+}
+header .navbar .menu-red li:hover {
+  font-weight: 700;
+}
+header .navbar .menu-red a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+header .navbar .btn-schedule {
+  background: #191921;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+header .navbar .btn-schedule:hover {
+  background: rgb(14.0086206897, 14.0086206897, 18.4913793103);
+}
+header .navbar .mobile-toggle {
+  display: none;
+}
+
+.branding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.branding .branding-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.branding .branding-content h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  width: 45.625rem;
+  margin-bottom: 4rem;
+}
+.branding .branding-content p {
+  font-size: 1.125rem;
+  color: #000000;
+  line-height: 40px;
+  width: 33.75rem;
+  margin-bottom: 2rem;
+}
+.branding .branding-content .btn-learn-more {
+  background: #F94F4F;
+  color: #FFFFFF;
+  border: none;
+  font-weight: 800;
+  cursor: pointer;
+}
+.branding .branding-content .hero-image {
+  width: 115%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Commissioner", sans-serif;
+}
+
+.btn {
+  padding: 15px 20px;
+}

@@ -8,106 +8,173 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Creative single page site</title>
-  <link rel="stylesheet" href="css/output.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <!-- header navigation -->
-   <header class="bg-white mb-0">
-  <!-- nav -->
-    <nav class="flex justify-around items-center px-6 py-4">
-      <div>
-        <a href="index.html" class="flex items-center">
-          <img src="assets/desktop/logo.svg" alt="Creative Agency Logo" class="h-8">
+  <header>
+    <!-- nav -->
+    <nav class="navbar">
+      <div class="logo-container">
+        <a href="index.html">
+          <img class="" src="assets/desktop/logo.svg" alt="Creative Agency Logo">
         </a>
       </div>
-      <div class="bg-red-600">
-        <ul class="flex space-x-6 text-white">
-          <li>
+      <div class="list-container">
+        <ul class="menu-red">
+          <li class="">
             <a href="#about">About</a>
           </li>
-          <li>
+          <li class="">
             <a href="#services">Services</a>
           </li>
-          <li>
+          <li class="">
             <a href="#projects">Projects</a>
           </li>
-          <li>
-            <button>Schedule a call</button>
+          <li class="">
+            <button class="btn btn-schedule">Schedule a call</button>
           </li>
         </ul>
+      </div>
+      <div class="mobile-toggle-container">
+        <button class="mobile-toggle">
+          <img class="icon-open" src="assets/mobile/icon-hamburger.svg" alt="hamburger menu icon">
+          <img class="icon-close max-sm:hidden" src="assets/mobile/icon-cross.svg" alt="close menu icon">
+        </button>
       </div>
     </nav>
     <!--/nav -->
   </header>
   <!--/ header navigation -->
-  
+
   <!-- main content -->
   <main>
     <!-- Branding section -->
-    Branding & website design agency
-    
-    We specialize in visual storytelling by creating cohesive brand and website design
-    solutions for small businesses, giving lasting impressions to audiences in a digital world.
-    
-    Learn more
-    
+    <div class="branding">
+      <div class="branding-content">
+        <div>
+
+          <h1>
+            Branding & website design agency
+          </h1>
+
+          <p>
+            We specialize in visual storytelling by creating cohesive brand and website design
+            solutions for small businesses, giving lasting impressions to audiences in a digital world.
+          </p>
+
+          <button class="btn btn-learn-more">
+            Learn more
+          </button>
+        </div>
+        <div>
+          <picture>
+            <source srcset="assets/desktop/image-hero.jpg" media="(min-width: 1024px)">
+            <source srcset="assets/tablet/image-hero.jpg" media="(min-width: 768px)">
+            <source srcset="assets/mobile/image-hero.jpg" media="(max-width: 767px)">
+            <img class="hero-image" src="assets/desktop/image-hero.jpg" alt="Hero Image">
+          </picture>
+
+        </div>
+
+      </div>
+    </div>
+
     <!--/ Branding section -->
-    
+
     <!-- Design section -->
-    Design is strategic.
-    
-    A well-crafted design strategy consistently produces desired outcomes and brand awareness.
-    We are firm believers that success lies in creative collaboration with our clients.
-    
-    Schedule a call
-    <!--/ Design section -->
-    
+     <div class="">
+      <div class="">
+        <div class="max-sm:px-0">
+          <picture>
+            <source srcset="assets/desktop/image-strategic.jpg" media="(min-width: 1024px)">
+            <source srcset="assets/tablet/image-strategic.jpg" media="(min-width: 768px)">
+            <source srcset="assets/mobile/image-strategic.jpg" media="(max-width: 767px)">
+            <img class="" src="assets/desktop/image-strategic.jpg" alt="Hero Image" max-w-full w-full >
+          </picture>
+        </div>
+        <div class="">
+          <img src="assets/desktop/bg-pattern-wave-red.svg" alt="">
+          <h2 class="">
+            <span class="">Design</span> is strategic.
+          </h2>
+          <p class="">
+            A well-crafted design strategy consistently produces desired
+            outcomes and brand awareness. We are firm believers that success lies in creative
+            collaboration with our clients.
+          </p>
+          <button class="">
+            Schedule a call
+          </button>
+        </div>
+      </div>
+     </div>
+
+
     <!-- approach section -->
-    
-    Our approach for creating a winning brand
-    
-    01 Brand strategy
-    Brand strategy is critical for long-term success. Outshining competitors and capturing
-    the target audience are key.
-    
-    02 Brand design
-    Keeping the brand design unique and meaningful helps in communicating the brand’s timeless
-    value effectively.
-    
-    03 Web design
-    A beautifully crafted website is the best tool for brand awareness, and ultimately results
-    in increased revenues.
+<div class="">
+  <div class="">
+    <div>
+      <h2 class="">
+        Our approach for creating a winning brand
+      </h2>
+    </div>
+    <div class="">
+      <div>
+        <h5 class=""><span class="">01</span> Brand strategy</h5>
+        <p class="">
+          Brand strategy is critical for long-term success. Outshining competitors and capturing
+          the target audience are key.
+        </p>
+      </div>
+      <div>
+        <h5 class=""><span class="">02</span> Brand design</h5>
+        <p class="">
+          Keeping the brand design unique and meaningful helps in communicating the brand’s timeless
+          value effectively.
+        </p>
+      </div>
+      <div>
+        <h5 class=""><span class="">03</span> Web design</h5>
+        <p class="">
+          A beautifully crafted website is the best tool for brand awareness, and ultimately results
+          in increased revenues.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
     <!--/approach section -->
 
-  <!-- Branding section -->
+    <!-- Branding section -->
 
-  <!-- Slide 1 -->
-  Brand naming & guidelines
-  Lean Product Roadmap
-  2019 project
-  <!--/Slide 1 -->
-  
-  <!-- Slide 2 -->
-  Brand identity & merchandise
-  New Majestic Hotel
-  2018 Project
-  <!--/Slide 2 -->
-  
-  <!-- Slide 3 -->
-  Brand identity & web design
-  Crypto Dashboard
-  2016 Project
-  <!--/Slide 3 -->
+    <!-- Slide 1 -->
+    Brand naming & guidelines
+    Lean Product Roadmap
+    2019 project
+    <!--/Slide 1 -->
 
-  <!--/ Branding section -->
+    <!-- Slide 2 -->
+    Brand identity & merchandise
+    New Majestic Hotel
+    2018 Project
+    <!--/Slide 2 -->
 
-  <!-- footer call section -->
-  Let's build something great together.
-  
-  Schedule a Call
-  <!--/ footer call section -->
- </main>
-<!--/main content  -->
+    <!-- Slide 3 -->
+    Brand identity & web design
+    Crypto Dashboard
+    2016 Project
+    <!--/Slide 3 -->
+
+    <!--/ Branding section -->
+
+    <!-- footer call section -->
+    Let's build something great together.
+
+    Schedule a Call
+    <!--/ footer call section -->
+  </main>
+  <!--/main content  -->
 
   <script src="js/script.js" defer></script>
 </body>
