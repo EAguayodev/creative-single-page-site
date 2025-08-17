@@ -1,0 +1,57 @@
+.design-section {
+    .design-row {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+    }
+
+    .strategic-image{
+        width: 100%;
+    }
+
+    .design-box {
+        background-color: $bg-black;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        h2 {
+            color: $white;
+            font-size: 2.5rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            width: 12.625rem;
+        }
+
+        .bg-pattern-wave-red {
+            position: relative;
+            right: 4rem;
+            top: -7rem;
+        }
+
+        p {
+            color: $white;
+            font-size: 1.125rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+            width: 445px;
+        }
+
+        span {
+            color: $red;
+        }
+
+        .btn-schedule {
+            background-color: transparent;
+            border: none;
+            color: $red;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 10px;
+            cursor: pointer;
+
+            &:hover {
+                color: $red-hover;
+            }
+        }
+    }
+}

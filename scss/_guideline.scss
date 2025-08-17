@@ -1,0 +1,79 @@
+.branding-slides-section {
+    .branding-slides-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .branding-column-left{
+        background-color: $bg-black;
+        display: flex;
+        height: 33rem;
+        padding: 4rem 6rem;
+    }
+
+    .pattern-wave-white{
+        position: relative;
+        left: 20rem;
+        top: 1rem;
+    }
+
+    .btn-arrow{
+        background-color: $bg-black;
+        cursor: pointer;
+        margin: 0 0.2rem;
+        border: none;
+    }
+
+    .branding-title {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin: 0 0 1rem;
+        color: $white;
+        width: 27.813rem;
+    }
+
+    .merchandise{
+        display: none;
+    }
+
+    .design{
+        display: none;
+    }
+
+    .slide-title{
+        position: relative;
+        left: 35rem;
+        top: -8rem;
+
+        p{
+            color: $white;
+            font-weight: 800;
+        }
+
+        small{
+            color: $white;
+            position: relative;
+            left: 6rem;
+        }
+    }
+
+    .slide{
+        width: 100%;
+       height: auto;
+    }
+    .slide-2 {
+        display: none;
+    }
+
+    .slide-3 {
+        display: none;
+    }
+
+    .title-2{
+        display: none;
+    }
+
+    .title-3{
+        display: none;
+    }
+}

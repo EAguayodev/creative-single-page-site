@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'header';
+@import 'agency-footer';
+@import 'design';
+@import 'branding';
+@import 'approach';
+@import 'guideline';
+@import 'responsive';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $commissioner;
+    overflow-x: hidden;
+}
+
+.btn {
+    padding: 15px 20px;
+}

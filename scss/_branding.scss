@@ -1,39 +1,41 @@
 .branding {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     .branding-content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-    
-            h1 {
-                font-size: 5rem;
-                font-weight: 700;
-                width: 45.625rem;
-                margin-bottom: 4rem;
-            }
-    
-            p {
-                font-size: 1.125rem;
-                color: $text-black;
-                line-height: 40px;
-                width: 33.75rem;
-                margin-bottom: 2rem;
-            }
-    
-            .btn-learn-more {
-                background: $red;
-                color: $white;
-                border: none;
-                font-weight: 800;
-                cursor: pointer;
-            }
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-            .hero-image {
-                // max-width: 895px;
-                width: 115%;
+        .hero-image{
+            // max-width: 895px;
+            width: 116%;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 5rem;
+            font-weight: 700;
+            width: 45.625rem;
+            margin-bottom: 4rem;
+        }
+
+        p {
+            font-size: 1.125rem;
+            color: $text-black;
+            line-height: 40px;
+            width: 33.75rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn-learn-more {
+            background: $red;
+            color: $white;
+            border: none;
+            font-weight: 800;
+            cursor: pointer;
+
+            &:hover {
+                background: $red-hover;
             }
         }
+    }
 }

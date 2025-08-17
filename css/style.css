@@ -1,0 +1,537 @@
+header .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+header .navbar .logo-container {
+  background-color: #FFFFFF;
+  padding: 30px 140px;
+  width: 60%;
+}
+header .navbar .list-container {
+  background-color: #F94F4F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  width: 70%;
+}
+header .navbar .menu-red {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+header .navbar .menu-red li {
+  padding: 0 10px;
+}
+header .navbar .menu-red li:hover {
+  font-weight: 700;
+}
+header .navbar .menu-red a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+header .navbar .btn-schedule {
+  background-color: #191921;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  font-weight: 800;
+}
+header .navbar .btn-schedule:hover {
+  background-color: #434356;
+}
+header .navbar .mobile-toggle {
+  display: none;
+}
+
+.footer-call-section .footer-call-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-call-section h2 {
+  font-size: 3.5rem;
+  width: 39.688rem;
+}
+.footer-call-section .footer-call-text {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  margin-right: 1rem;
+}
+.footer-call-section .footer-call-btn {
+  background-color: #F94F4F;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  font-weight: 800;
+}
+.footer-call-section .footer-call-btn:hover {
+  background-color: #FF9393;
+}
+
+.design-section .design-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.design-section .strategic-image {
+  width: 100%;
+}
+.design-section .design-box {
+  background-color: #191921;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.design-section .design-box h2 {
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  width: 12.625rem;
+}
+.design-section .design-box .bg-pattern-wave-red {
+  position: relative;
+  right: 4rem;
+  top: -7rem;
+}
+.design-section .design-box p {
+  color: #FFFFFF;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  width: 445px;
+}
+.design-section .design-box span {
+  color: #F94F4F;
+}
+.design-section .design-box .btn-schedule {
+  background-color: transparent;
+  border: none;
+  color: #F94F4F;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+  cursor: pointer;
+}
+.design-section .design-box .btn-schedule:hover {
+  color: #FF9393;
+}
+
+.branding .branding-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.branding .branding-content .hero-image {
+  width: 116%;
+  height: auto;
+}
+.branding .branding-content h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  width: 45.625rem;
+  margin-bottom: 4rem;
+}
+.branding .branding-content p {
+  font-size: 1.125rem;
+  color: #000000;
+  line-height: 40px;
+  width: 33.75rem;
+  margin-bottom: 2rem;
+}
+.branding .branding-content .btn-learn-more {
+  background: #F94F4F;
+  color: #FFFFFF;
+  border: none;
+  font-weight: 800;
+  cursor: pointer;
+}
+.branding .branding-content .btn-learn-more:hover {
+  background: #FF9393;
+}
+
+.approach-section .approach-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+}
+.approach-section .approach-content h2 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  position: relative;
+  z-index: 5;
+  left: 10rem;
+  width: 33.75rem;
+}
+.approach-section .approach-content .strategy-content {
+  background-color: #F94F4F;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem;
+  position: relative;
+  top: 0;
+  margin-top: -13rem;
+  padding: 8rem 16rem;
+}
+.approach-section .approach-content .strategy-content .strategy-number {
+  position: absolute;
+  left: -4rem;
+  top: 0%;
+  transform: translateY(-50%);
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgba(200, 200, 200, 0.2);
+  z-index: 0;
+  pointer-events: none;
+}
+.approach-section .approach-content .strategy-content .strategy-description {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  position: relative;
+}
+.approach-section .approach-content .strategy-content p {
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 27.813rem;
+  position: relative;
+}
+
+.branding-slides-section .branding-slides-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.branding-slides-section .branding-column-left {
+  background-color: #191921;
+  display: flex;
+  height: 33rem;
+  padding: 4rem 6rem;
+}
+.branding-slides-section .pattern-wave-white {
+  position: relative;
+  left: 20rem;
+  top: 1rem;
+}
+.branding-slides-section .btn-arrow {
+  background-color: #191921;
+  cursor: pointer;
+  margin: 0 0.2rem;
+  border: none;
+}
+.branding-slides-section .branding-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  color: #FFFFFF;
+  width: 27.813rem;
+}
+.branding-slides-section .merchandise {
+  display: none;
+}
+.branding-slides-section .design {
+  display: none;
+}
+.branding-slides-section .slide-title {
+  position: relative;
+  left: 35rem;
+  top: -8rem;
+}
+.branding-slides-section .slide-title p {
+  color: #FFFFFF;
+  font-weight: 800;
+}
+.branding-slides-section .slide-title small {
+  color: #FFFFFF;
+  position: relative;
+  left: 6rem;
+}
+.branding-slides-section .slide {
+  width: 100%;
+  height: auto;
+}
+.branding-slides-section .slide-2 {
+  display: none;
+}
+.branding-slides-section .slide-3 {
+  display: none;
+}
+.branding-slides-section .title-2 {
+  display: none;
+}
+.branding-slides-section .title-3 {
+  display: none;
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header .navbar .logo {
+    margin-left: 4rem;
+  }
+  header .navbar .logo-container {
+    width: 50%;
+    padding: 20px 20px;
+  }
+  header .navbar .list-container {
+    width: 70%;
+  }
+  .branding .branding-content .branding-text {
+    margin-left: 4.5rem;
+  }
+  .branding .branding-content h1 {
+    font-size: 3.5rem;
+    width: 24.875rem;
+    margin-bottom: 1rem;
+  }
+  .branding .branding-content p {
+    font-size: 0.938rem;
+    line-height: 23px;
+    width: 24.875rem;
+  }
+  .branding .branding-content .hero-image {
+    width: 100%;
+  }
+  .design-section .design-row h2 {
+    font-size: 2rem;
+  }
+  .design-section .design-row p {
+    font-size: 0.938rem;
+    width: 17.563rem;
+  }
+  .approach-section .approach-content {
+    align-items: center;
+  }
+  .approach-section .approach-content h2 {
+    font-size: 2rem;
+    width: 17.563rem;
+    left: 3rem;
+  }
+  .approach-section .approach-content .strategy-content {
+    margin-top: -3rem;
+    width: 39.063rem;
+    align-items: center;
+  }
+  .approach-section .approach-content .strategy-content p {
+    width: 21.188rem;
+  }
+  .footer-call-section .footer-call-content .wave-red-2 {
+    display: none;
+  }
+  .footer-call-section .footer-call-content h2 {
+    font-size: 2rem;
+    width: 24.875rem;
+  }
+  .footer-call-section .footer-call-content .footer-call-text {
+    font-size: 0.938rem;
+  }
+  .branding-slides-section .branding-title {
+    font-size: 2rem;
+    width: 17.563rem;
+  }
+  .branding-slides-section .branding-column-left {
+    align-items: center;
+    width: 100%;
+    padding: 0 2rem;
+  }
+  .branding-slides-section .branding-column-right {
+    width: 100%;
+    height: auto;
+  }
+  .branding-slides-section .slide-title {
+    left: 0;
+    top: -4rem;
+    text-align: center;
+  }
+  .branding-slides-section .slide-title p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  header .navbar {
+    justify-content: space-around;
+    align-items: center;
+  }
+  header .navbar .logo-container {
+    width: 50%;
+    padding: 20px 20px;
+  }
+  header .navbar .list-container {
+    display: none;
+    background-color: #191921;
+    position: absolute;
+    top: 4.5rem;
+    left: 6rem;
+    padding: 20px 30px;
+    height: 292px;
+    width: 252px;
+    gap: 1rem;
+  }
+  header .navbar .list-container.open {
+    display: block;
+  }
+  header .navbar .list-container .list-item {
+    font-size: 1.125rem;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+  header .navbar .list-container .list-item:hover {
+    color: #FF9393;
+  }
+  header .navbar .menu-red {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  header .navbar .menu-red li {
+    margin: 10px 0;
+  }
+  header .navbar .btn-schedule {
+    background-color: #F94F4F;
+  }
+  header .navbar .mobile-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  header .navbar .mobile-toggle .icon-open {
+    display: block;
+  }
+  header .navbar .mobile-toggle .icon-close {
+    display: none;
+  }
+  header .navbar .mobile-toggle.show .icon-open {
+    display: none;
+  }
+  header .navbar .mobile-toggle.show .icon-close {
+    display: block;
+  }
+  .branding .branding-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .branding .branding-content .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  .branding .branding-content h1 {
+    font-size: 2.5rem;
+    width: 20.438rem;
+    margin-bottom: 1rem;
+  }
+  .branding .branding-content p {
+    font-size: 0.875rem;
+    width: 20.438rem;
+    line-height: 1.7;
+  }
+  .design-section .design-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .design-section .strategic-image {
+    width: 100%;
+  }
+  .design-section .design-box {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  .design-section .design-box h2 {
+    font-size: 2rem;
+    width: 20.438rem;
+  }
+  .design-section .design-box p {
+    font-size: 0.938rem;
+    width: 20.438rem;
+  }
+  .approach-section .approach-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .approach-section .approach-content h2 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    left: 2rem;
+    width: 20.438rem;
+  }
+  .approach-section .approach-content .strategy-content {
+    width: 100%;
+    padding: 10rem 0rem;
+    margin-top: -7.5rem;
+    align-items: center;
+  }
+  .approach-section .approach-content .strategy-content .strategy-number {
+    left: -2rem;
+    font-size: 3rem;
+  }
+  .approach-section .approach-content .strategy-content .strategy-description {
+    font-size: 1.125rem;
+    width: 20.438rem;
+  }
+  .approach-section .approach-content .strategy-content p {
+    width: 20.438rem;
+  }
+  .branding-slides-section .branding-slides-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .branding-slides-section .branding-column-left {
+    height: auto;
+    margin: -2.6rem 0 3rem 0;
+    padding: 4rem 2rem;
+  }
+  .branding-slides-section .branding-title {
+    font-size: 2rem;
+    width: 20.438rem;
+  }
+  .branding-slides-section .pattern-wave-white {
+    display: none;
+  }
+  .branding-slides-section .slide-title {
+    left: 11rem;
+    top: -4rem;
+    width: 172px;
+  }
+  .footer-call-section .footer-call-content {
+    display: inline;
+    padding: 2rem 0;
+  }
+  .footer-call-section .wave-red-2 {
+    display: none;
+  }
+  .footer-call-section h2 {
+    font-size: 2rem;
+    width: 20.438rem;
+    margin: 2rem 2rem;
+  }
+  .footer-call-section .footer-call-btn {
+    margin: 2rem 2rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Commissioner", sans-serif;
+  overflow-x: hidden;
+}
+
+.btn {
+  padding: 15px 20px;
+}

@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Creative single page site</title>
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!-- header navigation -->
@@ -17,7 +17,7 @@
     <nav class="navbar">
       <div class="logo-container">
         <a href="index.html">
-          <img class="" src="assets/desktop/logo.svg" alt="Creative Agency Logo">
+          <img class="logo" src="assets/desktop/logo.svg" alt="Creative Agency Logo">
         </a>
       </div>
       <div class="list-container">
@@ -32,14 +32,14 @@
             <a href="#projects">Projects</a>
           </li>
           <li class="">
-            <button class="btn btn-schedule">Schedule a call</button>
+            <button class="btn btn-schedule">Schedule a Call</button>
           </li>
         </ul>
       </div>
       <div class="mobile-toggle-container">
         <button class="mobile-toggle">
           <img class="icon-open" src="assets/mobile/icon-hamburger.svg" alt="hamburger menu icon">
-          <img class="icon-close max-sm:hidden" src="assets/mobile/icon-cross.svg" alt="close menu icon">
+          <img class="icon-close" src="assets/mobile/icon-cross.svg" alt="close menu icon">
         </button>
       </div>
     </nav>
@@ -52,10 +52,10 @@
     <!-- Branding section -->
     <div class="branding">
       <div class="branding-content">
-        <div>
+        <div class="branding-text">
 
           <h1>
-            Branding & website design agency
+            Branding & <br> website design agency
           </h1>
 
           <p>
@@ -79,99 +79,169 @@
 
       </div>
     </div>
-
     <!--/ Branding section -->
 
     <!-- Design section -->
-     <div class="">
-      <div class="">
-        <div class="max-sm:px-0">
+    <div class="design-section">
+      <div class="design-row">
+        <div>
           <picture>
             <source srcset="assets/desktop/image-strategic.jpg" media="(min-width: 1024px)">
             <source srcset="assets/tablet/image-strategic.jpg" media="(min-width: 768px)">
             <source srcset="assets/mobile/image-strategic.jpg" media="(max-width: 767px)">
-            <img class="" src="assets/desktop/image-strategic.jpg" alt="Hero Image" max-w-full w-full >
+            <img class="strategic-image" src="assets/desktop/image-strategic.jpg" alt="Hero Image">
           </picture>
         </div>
-        <div class="">
-          <img src="assets/desktop/bg-pattern-wave-red.svg" alt="">
-          <h2 class="">
-            <span class="">Design</span> is strategic.
-          </h2>
-          <p class="">
-            A well-crafted design strategy consistently produces desired
-            outcomes and brand awareness. We are firm believers that success lies in creative
-            collaboration with our clients.
-          </p>
-          <button class="">
-            Schedule a call
-          </button>
+        <div class="design-box">
+          <div>
+            <img class="bg-pattern-wave-red" src="assets/desktop/bg-pattern-wave-red.svg" alt="wave pattern">
+          </div>
+          <div>
+            <h2>
+              <span>Design</span> is strategic.
+            </h2>
+            <p>
+              A well-crafted design strategy consistently produces desired
+              outcomes and brand awareness. We are firm believers that success lies in creative
+              collaboration with our clients.
+            </p>
+            <button class="btn-schedule">
+              Schedule a call
+            </button>
+          </div>
         </div>
       </div>
-     </div>
+    </div>
 
 
     <!-- approach section -->
-<div class="">
-  <div class="">
-    <div>
-      <h2 class="">
-        Our approach for creating a winning brand
-      </h2>
+    <div class="approach-section">
+      <div class="approach-content">
+        <div>
+          <h2>
+            Our approach for creating a winning brand
+          </h2>
+        </div>
+        <div class="strategy-content">
+          <div>
+            <p class="strategy-description"><span class="strategy-number">01</span> Brand strategy</p>
+            <p>
+              Brand strategy is critical for long-term success. Outshining competitors and capturing
+              the target audience are key.
+            </p>
+          </div>
+          <div>
+            <p class="strategy-description"><span class="strategy-number">02</span> Brand design</p>
+            <p>
+              Keeping the brand design unique and meaningful helps in communicating the brand’s timeless
+              value effectively.
+            </p>
+          </div>
+          <div>
+            <p class="strategy-description"><span class="strategy-number">03</span> Web design</p>
+            <p>
+              A beautifully crafted website is the best tool for brand awareness, and ultimately results
+              in increased revenues.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="">
+    <!--/approach section -->
+
+    <!-- guidelines section -->
+<div class="branding-slides-section">
+  <div class="branding-slides-row">
+    <div class="branding-column-left" >
       <div>
-        <h5 class=""><span class="">01</span> Brand strategy</h5>
-        <p class="">
-          Brand strategy is critical for long-term success. Outshining competitors and capturing
-          the target audience are key.
-        </p>
+        <h2 class="branding-title guideline">
+          Brand naming & guidelines
+        </h2>
+        <h2 class="branding-title merchandise">Brand identity & merchandise</h2>
+        <h2 class="branding-title design">Brand identity & web design</h2>
+        <button class="btn-arrow arrow-left">
+          <img src="assets/desktop/icon-arrow-previous.svg" alt="arrow left icon">
+        </button>
+        <button class="btn-arrow arrow-right">
+          <img src="assets/desktop/icon-arrow-next.svg" alt="arrow right icon">
+        </button>
       </div>
       <div>
-        <h5 class=""><span class="">02</span> Brand design</h5>
-        <p class="">
-          Keeping the brand design unique and meaningful helps in communicating the brand’s timeless
-          value effectively.
-        </p>
+        <img class="pattern-wave-white" src="assets/desktop/bg-pattern-wavy-white.svg" alt="pattern white">
+
       </div>
-      <div>
-        <h5 class=""><span class="">03</span> Web design</h5>
-        <p class="">
-          A beautifully crafted website is the best tool for brand awareness, and ultimately results
-          in increased revenues.
-        </p>
+    </div>
+    <div class="branding-column-right">
+      <!-- Slide 1 -->
+      <div class="slider">
+        <picture>
+          <source srcset="assets/desktop/image-slide-1.jpg" media="(min-width: 1200px)">
+          <source srcset="assets/tablet/image-slide-1.jpg" media="(min-width: 768px)">
+          <source srcset="assets/mobile/image-slide-1.jpg" media="(max-width: 767px)">
+          <img class="slide slide-1" src="assets/desktop/image-slide-1.jpg" alt="slide 1">
+        </picture>
+
+        <div class="slide-title title-1">
+          <p>Lean Product Roadmap</p>
+          <small>2019 project</small>
+        </div>
+      <!--/ Slide 1  -->
+        <!-- Slide 2 -->
+        
+        <picture>
+          <source srcset="assets/desktop/image-slide-2.jpg" media="(min-width: 1024px)">
+          <source srcset="assets/tablet/image-slide-2.jpg" media="(min-width: 768px)">
+          <source srcset="assets/mobile/image-slide-2.jpg" media="(max-width: 767px)">
+          <img class="slide slide-2" src="assets/desktop/image-slide-2.jpg" alt="slide 1">
+        </picture>
+        
+        
+        <div class="slide-title title-2">
+          <p>New Majestic Hotel</p>
+          <small>2018 Project</small>
+        </div>
+        <!--/Slide 2 -->
+
+        <!-- Slide 3 -->
+          <picture>
+            <source srcset="assets/desktop/image-slide-3.jpg" media="(min-width: 1024px)">
+            <source srcset="assets/tablet/image-slide-3.jpg" media="(min-width: 768px)">
+            <source srcset="assets/mobile/image-slide-3.jpg" media="(max-width: 767px)">
+            <img class="slide slide-3" src="assets/desktop/image-slide-3.jpg" alt="slide 1">
+          </picture>
+          <div class="slide-title title-3">
+            <p>Crypto Dashboard</p>
+            <small>2016 Project</small>
+          </div>
+          <!--/Slide 3 -->
       </div>
     </div>
   </div>
 </div>
-    <!--/approach section -->
 
-    <!-- Branding section -->
 
-    <!-- Slide 1 -->
-    Brand naming & guidelines
-    Lean Product Roadmap
-    2019 project
-    <!--/Slide 1 -->
-
-    <!-- Slide 2 -->
-    Brand identity & merchandise
-    New Majestic Hotel
-    2018 Project
-    <!--/Slide 2 -->
-
-    <!-- Slide 3 -->
-    Brand identity & web design
-    Crypto Dashboard
-    2016 Project
-    <!--/Slide 3 -->
-
-    <!--/ Branding section -->
+    <!--/ guidelines section -->
 
     <!-- footer call section -->
-    Let's build something great together.
+    <div class="footer-call-section">
+      <div class="footer-call-content">
+        <div>
+          <img class="wave-red-2" src="assets/desktop/bg-pattern-wave-red.svg" alt="">
+        </div>
+        <div>
+          <h2>
+            Let’s build something <br> great together.
+          </h2>
 
-    Schedule a Call
+        </div>
+        <div>
+          <button class="btn footer-call-btn">
+            Schedule a Call
+          </button>
+
+        </div>
+      </div>
+    </div>
     <!--/ footer call section -->
   </main>
   <!--/main content  -->
