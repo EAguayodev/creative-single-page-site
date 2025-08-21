@@ -66,7 +66,7 @@ To see how you can add code snippets, see below:
 ```
 ```js
 
-}
+
 ```
 
 
@@ -77,8 +77,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [https://codepen.io/w3resource/pen/dyQpqdg](codepen) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [https://forum.freecodecamp.org/t/how-can-i-display-different-text-everytime-i-click-a-button/369721](freecodecamp) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
