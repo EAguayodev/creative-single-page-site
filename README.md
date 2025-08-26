@@ -69,8 +69,8 @@ Going forward, I want to dig deeper into when to choose CSS and JS frameworks ov
 
 ### Useful resources
 
-- [https://codepen.io/w3resource/pen/dyQpqdg](codepen) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [https://forum.freecodecamp.org/t/how-can-i-display-different-text-everytime-i-click-a-button/369721](freecodecamp) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [https://codepen.io/w3resource/pen/dyQpqdg](codepen) - W3source codepen helped me with getting ideas for helping me get ideas for text and image transitions.
+- [https://forum.freecodecamp.org/t/how-can-i-display-different-text-everytime-i-click-a-button/369721](freecodecamp) - The Freecodecamp forum provided from community members other directions for getting the text to change and transition displaying other text in JavaScript.
 
 
 ## Author
