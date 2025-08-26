@@ -1,4 +1,3 @@
-// menu toggle
 const mobileToggle = document.querySelector(".mobile-toggle");
 const menu = document.querySelector(".list-container");
 const iconOpen = document.querySelector(".icon-open");
@@ -11,7 +10,6 @@ mobileToggle.addEventListener("click", () => {
   mobileToggle.classList.toggle("show");
 });
 
-// image slider & text slider
 const images = [
   "assets/desktop/image-slide-1.jpg",
   "assets/desktop/image-slide-2.jpg",

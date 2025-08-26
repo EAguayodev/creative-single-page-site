@@ -6,7 +6,8 @@
 
     .branding-column-left{
         background-color: $bg-black;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         height: 33rem;
         padding: 4rem 6rem;
     }

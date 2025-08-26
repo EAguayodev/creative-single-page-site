@@ -16,8 +16,6 @@ This is a solution to the [Creative agency single page site challenge on Fronten
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -26,53 +24,47 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Navigate the slider using either their mouse/trackpad or keyboard
+- Navigate the slider usin either their mouse/trackpad or keyboard
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
 ### Links
 
-- Solution URL: [](Github)
-- Live Site URL: [](Vercel)
+- Solution URL: [https://github.com/EAguayodev/creative-single-page-site](Github)
+- Live Site URL: [https://creative-single-page-site.netlify.app/](Netlify)
 
 ## My process
+I started the challenge using Tailwind CSS, since I wanted to move quickly with utility classes and responsive breakpoints. While it worked well for styling the general structure, I ran into limitations when I needed certain components and sections to overlap in a controlled way. Tailwind’s utility approach made those overlapping layouts feel clunky, especially when I wanted fine-grained control over spacing and positioning.
+
+To solve this, I switched over to a more traditional stack with HTML, SCSS, and JavaScript. SCSS gave me the flexibility to structure styles with variables, nesting, and mixins, which made overlapping sections easier to manage without affecting the rest of the layout. On the JavaScript side, I used arrays to dynamically change images and headings whenever the user clicked the arrow buttons, giving the page a more interactive feel.
+
+This combination gave me the best of both worlds: a clean, responsive layout where overlapping sections look intentional and a dynamic experience powered by JS.
 
 ### Built with
 
 - Semantic HTML5 markup
-- TailwindCSS
+- SCSS
 - JavaScript
 - Desktop-first workflow
 
 ### What I learned
+One of the biggest lessons from this challenge was understanding when to use utility frameworks like Tailwind vs. when to switch to custom SCSS. Tailwind was fast for prototyping, but when I needed overlapping layouts and component-level control, I realized that utility-first classes sometimes fight against more complex design requirements.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+By moving over to SCSS, I learned how to:
 
-To see how you can add code snippets, see below:
+Manage overlapping sections without creating unwanted white space.
 
-```html
+Use nesting and variables to keep my codebase organized and consistent.
 
-```
-```css
+Structure styles so that responsiveness worked naturally across devices.
 
-```
-```js
+On the JavaScript side, I reinforced my knowledge of working with arrays and the DOM. Setting up arrays for images and headings allowed me to swap content dynamically with the arrow buttons — a pattern I can reuse for sliders, galleries, or testimonial sections in future projects.
 
-
-```
+Overall, this project taught me how to choose the right tool for the job and how much flexibility a traditional HTML/SCSS/JS setup still offers when fine-tuning layouts.
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Going forward, I want to dig deeper into when to choose CSS and JS frameworks over others depending on the situation. This project made me realize that the “right” tool can shift depending on whether the priority is rapid prototyping, pixel-perfect layout control, or reusable component structures. Building that decision-making skill set is something I’ll focus on as I take on more challenges.
 
 
 ### Useful resources
@@ -83,9 +75,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/EAguayodev)
 
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I want to give acknoledgementto frontendmentor for providing this intermediate challenge. Challenged me to go outside my scope of using flexbox to solve most of my layout solutions when taking on challenges to using grid.

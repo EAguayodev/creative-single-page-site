@@ -67,6 +67,7 @@
             }
 
             .strategy-content {
+                display: grid;
                 margin-top: -3rem;
                 width: 39.063rem;
                 align-items: center;
@@ -125,7 +126,6 @@
             }
         }
     }
-
 }
 
 // for low resolution ipads and tablets
@@ -282,8 +282,10 @@
             }
 
             .strategy-content {
+                grid-column: auto;
+                justify-content: center;
                 width: 100%;
-                padding: 10rem 0rem;
+                padding: 10rem 2rem;
                 margin-top: -7.5rem;
                 align-items: center;
 

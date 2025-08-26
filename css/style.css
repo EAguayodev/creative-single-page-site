@@ -154,7 +154,6 @@ header .navbar .mobile-toggle {
 
 .approach-section .approach-content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   position: relative;
 }
 .approach-section .approach-content h2 {
@@ -167,20 +166,20 @@ header .navbar .mobile-toggle {
 }
 .approach-section .approach-content .strategy-content {
   background-color: #F94F4F;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column: 3/span 2;
   gap: 2rem;
-  position: relative;
   top: 0;
   margin-top: -13rem;
   padding: 8rem 16rem;
+  width: 100%;
+  z-index: 4;
 }
 .approach-section .approach-content .strategy-content .strategy-number {
   position: absolute;
   left: -4rem;
   top: 0%;
-  transform: translateY(-50%);
   font-size: 5rem;
   font-weight: 900;
   color: rgba(200, 200, 200, 0.2);
@@ -212,7 +211,8 @@ header .navbar .mobile-toggle {
 }
 .branding-slides-section .branding-column-left {
   background-color: #191921;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   height: 33rem;
   padding: 4rem 6rem;
 }
@@ -309,6 +309,7 @@ header .navbar .mobile-toggle {
     left: 3rem;
   }
   .approach-section .approach-content .strategy-content {
+    display: grid;
     margin-top: -3rem;
     width: 39.063rem;
     align-items: center;
@@ -462,8 +463,10 @@ header .navbar .mobile-toggle {
     width: 20.438rem;
   }
   .approach-section .approach-content .strategy-content {
+    grid-column: auto;
+    justify-content: center;
     width: 100%;
-    padding: 10rem 0rem;
+    padding: 10rem 2rem;
     margin-top: -7.5rem;
     align-items: center;
   }
